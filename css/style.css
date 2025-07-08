@@ -22,18 +22,18 @@
 
 /*  Header Styles  */
 .banner {
-    background-image: url(../images/Banner\ Image.png);
-    /* background-image: linear-gradient(#070211, #FFFFFF); */
-    position: relative;
-    background-repeat: no-repeat;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/Banner\ Image.png);
+    font-family: "Merriweather", serif;
     width: 1320px;
     height: 600px;
+    background-size: cover;
+    background-position: center;
     margin: 50px auto;
-    font-family: "Merriweather", serif;
-    background-image: linear-gradient( 0,  100% #070211)
+    border-radius: 16px;
 }
 
 .banner-title {
+    
     text-align: center;
     color: #FFFFFF;
     padding-top: 15%;
@@ -81,8 +81,7 @@
 
 /*  Welcome Banner Styles  */
 .welcome-banner {
-    background-image: url(../images/Vectorrr.png);
-    /* background-image: linear-gradient(#070211, #FFFFFF); */
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/Vectorrr.png);
     position: relative;
     background-repeat: no-repeat;
     width: 1320px;
@@ -91,6 +90,7 @@
     font-family: "Merriweather", serif;
     display: flex;
     margin-top: 120px;
+    border-radius: 16px;
 }
 
 .welcome-banner-title {
@@ -168,4 +168,76 @@
     border-radius: 8px;
     padding: 16px 32px;
     margin-top: 0px;
+}
+
+/*  Coming Soon Styles  */
+.coming-soon {
+    display: flex;
+    align-items: center;
+    width: 1320px;
+    margin: 120px auto;
+}
+
+.coming-soon-title {
+    width: 393px;
+    
+}
+
+.coming-soon-title h6 {
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-soon-title h2 {
+    font-family: "Merriweather", serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 22px 0;
+}
+
+.coming-soon-title p {
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    font-size: 20px;
+    font-weight: normal;
+    width: 393px;
+}
+
+.coming-soon-img {
+    width: 463px;
+    height: 463px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.coming-soon-img img {
+    margin: 40px;
+}
+
+.coming-soon-offer {
+    margin-left: 120px;
+}
+
+.coming-soon-offer h2 {
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
+    font-size:48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.coming-soon-offer p {
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.coming-soon-offer img {
+    margin-top: 43px;
 }
