@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Header Styles  */
+.banner {
+    background-image: url(../images/Banner\ Image.png);
+    /* background-image: linear-gradient(#070211, #FFFFFF); */
+    position: relative;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    font-family: "Merriweather", serif;
+    background-image: linear-gradient( 0,  100% #070211)
+}
+
+.banner-title {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 15%;
+}
+
+.banner-title h4 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.banner-title h2 {
+    font-size: 72px;
+    font-weight: bold;
+    width: 632px;
+    margin-left: 25%;
+}
+
+/*  Offer Styles  */
+.offer-title {
+    width: 802.9px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.offer-title h1 {
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+
+.offer-title h6 {
+    font-size: 24px;
+    font-weight: medium;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.offer-title h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+/*  Welcome Banner Styles  */
+.welcome-banner {
+    background-image: url(../images/Vectorrr.png);
+    /* background-image: linear-gradient(#070211, #FFFFFF); */
+    position: relative;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    font-family: "Merriweather", serif;
+    display: flex;
+    margin-top: 120px;
+}
+
+.welcome-banner-title {
+    width: 60%;
+    margin-left: 126px;
+    margin-top: 126px;
+}
+
+.welcome-banner-title h2 {
+    font-family: "Merriweather", serif;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+    width: 642px;
+    margin-bottom: 24px;
+    letter-spacing: 11px;
+}
+
+.welcome-banner-title p {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    width: 697px;
+    margin-bottom: 40px;
+}
+
+.welcome-banner-title button {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.welcome-banner-img {
+    margin-top: 68px;
+    margin-right: 138px;
+    width: 320px;
+}
+
+.booking {
+    background-image: linear-gradient(#ffe8e8, #FFFFFF);
+    width: 1320px;
+    height: 482px;
+    display: block;
+    text-align: center;
+    border-radius: 16px;
+    margin: 120px auto;
+}
+
+.booking-title {
+    padding: 100px 385px;
+    line-height: 56px;
+}
+
+.booking-title span {
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.booking-title h3 {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.booking button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin-top: 0px;
+}
