@@ -241,3 +241,93 @@
 .coming-soon-offer img {
     margin-top: 43px;
 }
+
+/*  Holidays Styles  */
+.holidays-offer {
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.holidays-offer-title {
+    width: 1068px;
+    margin: 64px auto;
+    text-align: center;
+}
+
+.holidays-offer-title h6 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 16px;
+}
+
+.holidays-offer-title h1 span {
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.holidays-offer-title h1 {
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 28px;
+}
+
+.holidays-offer-title p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #070211;
+    margin-bottom: 64px;
+    padding: 0 90px;
+}
+
+.holidays-bg {
+    margin: 0 140px;
+}
+
+.holidays-bg-left {
+    margin-left: 130px;
+}
+
+.holidays-bg-right {
+    width: 220px;
+    margin-left: 280px;
+    margin-bottom: 280px;
+}
+
+/*  Portfolio Styles  */
+.portfolio {
+    margin: 120px 300px;
+    
+}
+
+.portfolio-title h6 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.portfolio-title h2 {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.portfolio-title p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #070211;
+    margin-bottom: 48px;
+    width: 896px;
+}
